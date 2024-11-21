@@ -1,0 +1,197 @@
+/* color pallet */
+/* #1A1A19 */
+/* #31511E */
+/* #859F3D */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+header{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(236, 219, 219, 0.164),rgba(255, 252, 252, 0.192)),  url(DeWatermark.ai_1731989661027.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+    /* position: relative; */
+}
+
+/* header .overlay{
+    width: 100%;
+    height: 100%;
+    background-color:#00000031;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.header>nav{
+    height: 13%;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 550;
+    /* background-color: aqua; */
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin-right: 60px;
+    /* background-color: rgb(0, 190, 127); */
+}
+.button>button{
+    padding: 8px 20px;
+    border-radius: 6%;
+    font-size: 14px;
+    border: none;
+    /* margin-right: 80px; */
+    background-color: #31511E ;
+    color: white;
+    letter-spacing: 1px;
+}
+.button>button:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+    border: solid 1px #31511E;
+    color: #31511E;
+    cursor: pointer;
+}
+.a>a:hover{
+    
+    color: #31511E;
+}
+
+nav .a a{
+    color: black;
+    text-decoration: none; 
+    margin-left: 5%;
+}
+
+.img>img{
+    height: 80px;
+    
+    /* background-color: red; */
+}
+nav .a{
+    width: 30%;
+    /* background-color: red; */
+    margin-right: 8%;
+    
+}
+.content{
+    margin-left: 270px;
+    color: #31511E;
+    margin-top: 40px;
+    
+}
+.content>h1{
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.content{
+    font-size: 15px;
+    font-weight: 700;
+}
+.content>button{
+    margin-top: 12px;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 2%;
+    background-color: #31511E;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+.content>button:hover{
+    transform: scale(1.05);
+    background: white;
+    color: #31511E;
+    border: solid 2px #31511E;
+    cursor: pointer;
+}
+
+.img2{
+    height: 120px;
+    width: 30px;
+    /* background: red; */
+    margin-left: 210px;
+
+    margin-top: 50px;
+    flex-direction: column;
+    font-size: 30px;
+    color: #31511E;
+    /* background-color: aqua; */
+}
+.footer{
+    height: 10%;
+    width: 45%;
+    /* background-color: red; */
+    margin-top: 30px;
+    color: #31511E;
+    margin-left: 270px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+.page2{
+    width: 100%;
+    height: 80%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .images{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+    /* margin-top: 5%; */
+    /* background-color: red; */
+    padding: 0px 180px ;
+    gap: 40px;
+   margin-top: 1%;
+   
+    
+ }
+
+ .img_container{
+        width: 100%;
+        height: 180%;
+        
+ }
+ .img_container img{
+    height: 100%;
+    width: 100%;
+ }
+.h1 h1{
+    margin-top: 5%;
+    margin-left: 180px;
+    
+}
+
